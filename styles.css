@@ -7,41 +7,73 @@ body {
 }
 
 header {
-    text-align: center;
-    background-color: #337ab7;
-    color: #fff;
-    padding: 20px;
+    background-color: #073B4C;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-h1 {
-    font-size: 24px;
-    margin: 0;
-}
-
-p {
-    font-size: 16px;
-    margin: 0;
-}
-
-section {
-    padding: 20px;
-}
-
-h2 {
-    font-size: 20px;
-}
-
-a {
+.logo h2 {
     text-decoration: none;
-    color: #337ab7;
-}
-
-ul {
-    list-style-type: disc;
-}
-
-footer {
-    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    border: 10px solid #fff;
     padding: 10px;
-    background-color: #f4f4f4;
 }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px; /* Espacio entre las opciones de navegación */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/*Secciones*/
+.seccion {
+    background-color: #073B4C; /* Color de fondo de las secciones */
+    margin-bottom: 20px; /* Margen inferior para separar las secciones */
+    padding: 20px; /* Relleno interno para separar el contenido de las secciones */
+}
+
+.seccion h2{
+    text-align: center;
+}
+
+.seccion p{
+    text-align: justify;
+}
+
+/*RESUMEN PROFESIONAL
+/* Estilos para la imagen circular */
+.imagen-circular {
+    width: 200px; /* Ancho del contenedor del círculo */
+    height: 200px; /* Alto del contenedor del círculo */
+    margin: 0 auto; /* Centra horizontalmente */
+    border-radius: 50%; /* Convierte el contenedor en un círculo */
+    overflow: hidden; /* Oculta cualquier parte de la imagen fuera del círculo */
+    border: 5px solid #333; /* Borde de 5 píxeles en color gris oscuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-circular img {
+    width: 100%; /* Asegura que la imagen llene el contenedor circular */
+    height: auto; /* Mantiene la proporción de aspecto */
+    border-radius: 50%; /* Evita que la imagen se vea cuadrada dentro del círculo */
+}
+
+
+
+
