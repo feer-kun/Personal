@@ -1,78 +1,56 @@
 /* Estilos para el currículum vitae */
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    background-color: #002c2b;
+    margin: 10px;
+    padding: 20px;
+    
 }
 
-header {
-    background-color: #073B4C;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.bg-custom-one{
+   background-color: #0a837f;
 }
 
-.logo h2 {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    border: 10px solid #fff;
-    padding: 10px;
+.container-fluid a{
+    color: white;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    margin-right: 20px; /* Espacio entre las opciones de navegación */
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-/*Secciones*/
-.seccion {
-    background-color: #073B4C; /* Color de fondo de las secciones */
-    margin-bottom: 20px; /* Margen inferior para separar las secciones */
-    padding: 20px; /* Relleno interno para separar el contenido de las secciones */
-}
-
-.seccion h2{
-    text-align: center;
-}
-
-.seccion p{
-    text-align: justify;
-}
-
-/*RESUMEN PROFESIONAL
-/* Estilos para la imagen circular */
-.imagen-circular {
-    width: 200px; /* Ancho del contenedor del círculo */
-    height: 200px; /* Alto del contenedor del círculo */
-    margin: 0 auto; /* Centra horizontalmente */
-    border-radius: 50%; /* Convierte el contenedor en un círculo */
-    overflow: hidden; /* Oculta cualquier parte de la imagen fuera del círculo */
-    border: 5px solid #333; /* Borde de 5 píxeles en color gris oscuro */
+.imagen-container { 
+    margin-top: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;/
+}
+
+.imagen-circular {
+    border-radius: 50%; /* Aplica un redondeo del 50% para hacerla circular */
+    width: 200px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: 200px; /* Ajusta la altura de la imagen según tus necesidades */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se extienda más allá del cuadro */
+    border: 5px solid #333;
 }
 
 .imagen-circular img {
-    width: 100%; /* Asegura que la imagen llene el contenedor circular */
-    height: auto; /* Mantiene la proporción de aspecto */
-    border-radius: 50%; /* Evita que la imagen se vea cuadrada dentro del círculo */
+    width: 100%; /* Establece el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la relación de aspecto */
 }
+
+.presentacion{
+    padding: 20px 100px 20px 100px;
+    text-align: justify;
+    color: gray;
+}
+
+
+/* Experiencia laboral*/
+
+
+
+
 
 
 
