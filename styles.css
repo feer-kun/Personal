@@ -5,18 +5,18 @@
 }
 
 body {
-    background-color: #002c2b;
+    background-color: #FFFF;
     margin: 10px;
     padding: 20px;
     
 }
 
 .bg-custom-one{
-   background-color: #0a837f;
+   background-color: #aaccfa;
 }
 
 .container-fluid a{
-    color: white;
+    color: 	#000000;
 }
 
 .imagen-container { 
@@ -48,6 +48,9 @@ body {
 
 /* Experiencia laboral*/
 
+.bg-custom-two{
+    background-color: #aaccfa;
+ }
 
 
 
