@@ -10,6 +10,9 @@ body {
     padding: 20px;
     
 }
+a{
+    text-decoration: none;
+ }
 
 .bg-custom-one{
    background-color: #aaccfa;
@@ -51,6 +54,8 @@ body {
 .bg-custom-two{
     background-color: #aaccfa;
  }
+
+ 
 
 
 
