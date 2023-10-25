@@ -1,2 +1,3 @@
 # Personal
-# Aprendiendo a siseñar paginas web con Chatgpt
+# Aprendiendo a diseñar paginas web con Chatgpt
+# Curriculum vitae
