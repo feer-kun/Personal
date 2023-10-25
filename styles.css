@@ -22,6 +22,10 @@ a{
     color: 	#000000;
 }
 
+.navbar.fixed-top {
+    position: fixed;
+}
+
 .imagen-container { 
     margin-top: 20px;
     display: flex;
@@ -72,7 +76,9 @@ a{
     /*margin: 0px; /* Margen exterior para separación */
 }
 
- 
+.oculto {
+    display: none;
+}
 
 
 
